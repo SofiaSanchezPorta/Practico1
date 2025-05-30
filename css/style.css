@@ -1,0 +1,11 @@
+body {
+    text-align: center; /*Esto alinea todo el sitio al centro*/
+}
+
+nav ul, footer ul {
+    display: grid;grid-auto-flow: column; /*Esto ordena todo en una sola columna*/
+    list-style: none; /*ESto le saca el puntito a los elementos de la lista*/
+    padding: 1rem;
+    gap: 1rem;
+}
+
