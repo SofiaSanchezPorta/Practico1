@@ -24,7 +24,7 @@
         </nav>
 
         <section>
-            <form>
+            <form id="miFormulario">
                 <div>
                     <div class="formulario">
                         <label for="nombre">Nombre completo</label>
@@ -36,7 +36,7 @@
                         <input type="email" id="email">
                     </div>
 
-                    <div class="formulario" id="seleccion">
+                    <div class="formulario">
                         <label for="comoConoce">¿Cómo te enteraste de nuestra empresa?</label>
                         <select id="comoConoce">
                             <option value="">Seleccioná</option>
@@ -46,12 +46,22 @@
                         </select>
                     </div>
 
-                    <div class="otros" id="otro">
-                        <label for="otros">Especificá</label>
-                        <textarea id="otros"></textarea>
+                    <div class="formulario otros" id="otro">
+                        <label for="otross">Especificá</label>
+                        <textarea id="otross"></textarea>
                     </div>
+                    <div class="formulario">
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+                    
                 </div>
+                
             </form>
+
+            <div class="saludo agradecimiento" id="gracias">
+                <p>¡Gracias por contactarnos!</p>
+            </div>
+
 
         </section>
 
