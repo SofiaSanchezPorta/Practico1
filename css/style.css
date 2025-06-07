@@ -9,3 +9,26 @@ nav ul, footer ul {
     gap: 1rem;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.formulario {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.otros {
+    display: none;
+}
+
+.agradecimiento {
+    display: none;
+}
+
+
