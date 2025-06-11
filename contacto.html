@@ -9,7 +9,6 @@
 </head>
 <body>
     <div class="container">
-            <div class="container">
         <header>
             <h1>EL ÚLTIMO VIDEOCLUB</h1>
         </header>
@@ -31,54 +30,71 @@
             </ul>
         </nav>
 
-        <section>
-            <form id="miFormulario">
-                <div>
-                    <div class="formulario">
-                        <label for="nombre">Nombre completo</label>
-                        <input type="text" id="nombre">
+        <div class="container-form">
+
+            <aside>
+
+            </aside>
+
+            <section>
+                <form id="miFormulario">
+                    <div>
+                        <div class="formulario">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre">
+                        </div>
+
+                        <div class="formulario">
+                            <label for="email">Correo</label>
+                            <input type="email" id="email">
+                        </div>
+
+                        <div class="formulario">
+                            <label for="comoConoce">¿Cómo te enteraste de nuestra empresa?</label>
+                            <select id="comoConoce">
+                                <option value="">Seleccioná</option>
+                                <option value="1">Redes</option>
+                                <option value="2">Comentarios</option>
+                                <option value="3">Otros</option>
+                            </select>
+                        </div>
+
+                        <div class="formulario otros" id="otro">
+                            <label for="otross">Especificá</label>
+                            <textarea id="otross"></textarea>
+                        </div>
+
+                        <div class="formulario">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" cols="30" rows="5"></textarea>
+                        </div>
+
+                        <div class="formulario">
+                            <button type="submit" id="enviar">Enviar</button>
+                        </div>
+
                     </div>
 
-                    <div class="formulario">
-                        <label for="email">Correo</label>
-                        <input type="email" id="email">
-                    </div>
+                </form>
 
-                    <div class="formulario">
-                        <label for="comoConoce">¿Cómo te enteraste de nuestra empresa?</label>
-                        <select id="comoConoce">
-                            <option value="">Seleccioná</option>
-                            <option value="1">Redes</option>
-                            <option value="2">Comentarios</option>
-                            <option value="3">Otros</option>
-                        </select>
-                    </div>
-
-                    <div class="formulario otros" id="otro">
-                        <label for="otross">Especificá</label>
-                        <textarea id="otross"></textarea>
-                    </div>
-                    <div class="formulario">
-                        <button type="submit" id="enviar">Enviar</button>
-                    </div>
-                    
+                <div class="saludo agradecimiento" id="gracias">
+                    <p>¡Gracias por contactarnos!</p>
                 </div>
+
+
+            </section>
+
+            <aside>
                 
-            </form>
-
-            <div class="saludo agradecimiento" id="gracias">
-                <p>¡Gracias por contactarnos!</p>
-            </div>
-
-
-        </section>
+            </aside>
+        </div>
 
         <footer>
             <ul>
-                <li>RECOMENDADOS</li>
-                <li>ESTRENOS</li>
-                <li>CLÁSICOS</li>
-                <li>MERCHANDISING</li>
+                <li>Recomendados</li>
+                <li>Estrenos</li>
+                <li>Clásicos</li>
+                <li>Merchandising</li>
             </ul>
 
         </footer>

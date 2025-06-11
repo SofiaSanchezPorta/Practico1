@@ -19,10 +19,12 @@ comoConoce.addEventListener("change", function(){
 enviar.addEventListener("click", function(event){
     event.preventDefault();
 
+    alert('Mensaje enviado');
+
     if(comoConoce.value != ""){ //COMPLETAR CON LÓGICA PARA QUE MAIL Y NOMBRE NO QUEDEN VACÍOS
         for(let i = 0; i < formulario.length; i++){
         formulario[i].classList.add("otros");
-        }
+        } 
 
         agradecimiento.classList.remove("agradecimiento");
         //agradecimiento.classList.add("finalizado");
