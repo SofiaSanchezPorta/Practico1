@@ -1,6 +1,26 @@
 body {
     text-align: center; /*Esto alinea todo el sitio al centro*/
+    background-color: #001d3dff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
 }
+
+h1 {
+    color: #ffc300ff;;
+}
+
+nav, footer {
+    background-color: #ffd60aff;
+}
+
+/*--rich-black: #000814ff;
+--oxford-blue: #001d3dff;
+--yale-blue: #003566ff;
+--mikado-yellow: #ffc300ff;
+--gold: #ffd60aff;
+*/
 
 .titulo {
     margin: 60px;
@@ -15,7 +35,7 @@ nav ul, footer ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #003566ff;
     font-size: 1.5  rem;
 }
 
@@ -29,6 +49,7 @@ a:hover {
     "aside section aside";
     grid-template-columns: 1fr 1fr 1fr;
     padding: 1rem;
+    background-color: #003566ff;
 
 }
 
@@ -55,9 +76,10 @@ a:hover {
 
 .box {
     display: block;
-    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
     padding: 2rem;
     text-align: center;
+    background-color: #003566ff;
 }
 
 .opinion {
@@ -88,4 +110,30 @@ a:hover {
     padding: 1rem;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+@media (max-width: 1023px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    .ventas, .contabilidad {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .ventas, .contabilidad {
+        grid-template-columns: auto;
+    }
+    /*.container-form {
+        grid-template-areas:
+        "section"
+        "aside";
+        grid-template-columns: 1fr;
+    }*/
 }
