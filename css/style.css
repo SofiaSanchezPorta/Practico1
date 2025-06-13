@@ -2,6 +2,10 @@ body {
     text-align: center; /*Esto alinea todo el sitio al centro*/
 }
 
+.titulo {
+    margin: 60px;
+}
+
 nav ul, footer ul {
     display: grid;grid-auto-flow: column; /*Esto ordena todo en una sola columna*/
     list-style: none; /*ESto le saca el puntito a los elementos de la lista*/
@@ -62,4 +66,26 @@ a:hover {
 
 .comentario {
     font-size: 1rem;
+}
+
+.box2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#staff {
+    max-width: 60%;
+    max-height: 60%;
+    margin-bottom: 4rem;
+}
+
+.ventas, .contabilidad {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
 }
