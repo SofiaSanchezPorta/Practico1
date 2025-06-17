@@ -1,6 +1,6 @@
 body {
     text-align: center; /*Esto alinea todo el sitio al centro*/
-    background-color: #001d3dff;
+    background-color: #001d3d;
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
@@ -15,8 +15,15 @@ nav, footer {
     background-color: #ffd60aff;
 }
 
-/*--rich-black: #000814ff;
---oxford-blue: #001d3dff;
+/*PALETA DE COLORES
+--sky-blue: #8ecae6ff;
+--blue-green: #219ebcff;
+--prussian-blue: #023047ff;
+--selective-yellow: #ffb703ff;
+--ut-orange: #fb8500ff;
+
+--rich-black: #000814ff;
+--oxford-blue: #001d3d;
 --yale-blue: #003566ff;
 --mikado-yellow: #ffc300ff;
 --gold: #ffd60aff;
@@ -43,11 +50,18 @@ a:hover {
     text-decoration: underline;
 }
 
-.clientes {
-    aspect-ratio: 1 / 1; /*Esto hace que la imagen sea cuadrada*/
-    border-radius: 50%;
+.box2 img {
+    width: 116px;              /* ancho deseado */
+    height: 174px;             /* alto deseado */
+    object-fit: cover;         /* recorta la imagen si es necesario sin deformarla */
+  }
 
-}
+.box3 img {
+    width: 203px;              /* ancho deseado */
+    height: 305px;             /* alto deseado */
+    object-fit: cover;         /* recorta la imagen si es necesario sin deformarla */
+  }
+
 .container-form{
     display: grid;
     /*grid-template-areas:
@@ -60,7 +74,7 @@ a:hover {
     margin-left: 15%;
     margin-right: 15%;
     grid-template-columns: 1fr;
-    background-color: #001d3dff;
+    background-color: #001d3d;
 
 }
 
@@ -82,7 +96,7 @@ input, select, textarea, button {
 
 button {
     background-color: #ffc300ff;
-    color: #001d3dff;
+    color: #001d3d;
     font-weight: bold;
     cursor: pointer;
     padding: 1rem;
@@ -109,10 +123,35 @@ button {
     padding: 1rem;
 }
 
-.box {
+.grid-container-movies {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.sobre-nosotros {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.box2 {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+    background-color: #003566ff;
+}
+
+.box, .box3{
     display: block;
     /*border: 1px solid #ccc;*/
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     background-color: #003566ff;
 }
