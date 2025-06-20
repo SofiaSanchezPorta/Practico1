@@ -21,7 +21,7 @@ enviar.addEventListener("click", function(event){
 
     alert('Mensaje enviado');
 
-    if(comoConoce.value != ""){ //COMPLETAR CON LÓGICA PARA QUE MAIL Y NOMBRE NO QUEDEN VACÍOS
+    if(comoConoce.value != ""){                             //COMPLETAR CON LÓGICA PARA QUE MAIL Y NOMBRE NO QUEDEN VACÍOS
         for(let i = 0; i < formulario.length; i++){
         formulario[i].classList.add("otros");
         } 

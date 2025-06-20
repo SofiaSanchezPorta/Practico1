@@ -7,11 +7,7 @@ body {
     font-style: normal;
 }
 
-h1 {
-    color: #ffc300ff;
-}
-
-h2, h3 {
+h1, h2, h3 {
     color: #ffc300ff;
 }
 
@@ -199,10 +195,6 @@ button {
     .grid-container-movies {
         grid-template-columns: auto auto;
     }
-    .sobre-nosotros {
-        grid-template-columns: auto;
-    }
-
 
     /*.container-form {
         grid-template-areas:
